@@ -6,9 +6,9 @@
     background-size: cover;
 }
 
-body {
+/*body {
     font-family: "Average", serif;
-}
+}*/
 
 h1,
 h2,
@@ -19,3 +19,24 @@ h6 {
     font-family: "Playfair Display SC", serif;
 }
 
+
+.card-img-top{
+    width:100%;
+    height:auto;
+  }
+
+  @media (min-width: 500px) {  
+    .card-columns {column-count: 1;}
+  }
+
+  @media (min-width: 768px) {  
+    .card-columns {column-count: 2;}
+  }
+  
+  @media (min-width: 992px) { 
+   .card-columns {column-count: 2;}
+  }
+   
+  @media (min-width: 1200px) {  
+     .card-columns {column-count: 3;} 
+  }
