@@ -1,6 +1,6 @@
 .header {
     background-image: url('../img/bird-of-paradise.jpg');
-    min-height: 50vh;
+    min-height: 60vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Playfair Display SC", serif;
+  font-family: 'Playfair Display SC', serif;
 }
 
 
